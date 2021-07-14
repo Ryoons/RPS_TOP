@@ -1,18 +1,29 @@
-
+// game function will be run on start of page load and holds
+// the logic and computer choice 
 function game() {
+    
+    // this function creates an array that holds the computers
+    // choice of answers and chooses it at random when called.
     function computerPlay() {
         let computerChoice = ['Rock', 'Paper', 'Scissors'];
         let randomChoice = Math.floor(Math.random() * computerChoice.length)
         return computerChoice[randomChoice]
     }
+    // this will run the computerPlay function because it always
+    // starts on rock without it 
     computerPlay();
 
+    // holds the variable for the computer
     let computerSelection = computerPlay();
+    // was used in testing.
     const playerSelection = computerPlay();
 
+    // used in testing to see if choices changed.
     console.log('Player:' + playerSelection)
     console.log('Computer:' + computerSelection)
 
+    // the function plays one round of RPS
+    // *** need to add points and round function ***
     function rpsRound(playerSelection, computerSelection) {
 
         if (playerSelection === "Rock") {

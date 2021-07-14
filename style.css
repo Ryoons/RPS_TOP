@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(78, 77, 77);
+    font-family: 'Tourney', cursive;
+    font-size: 25px;
+    
+}
+.title {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}

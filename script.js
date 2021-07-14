@@ -18,16 +18,16 @@ function game() {
         if (playerSelection === "Rock") {
             if (computerSelection === "Scissors") {
                 console.log("You Win! Rock beats Scissors")
-            } if (computerSelection === "Rock") {
-                console.log("Tie! Rock ties Rock")
+            } else if (computerSelection === "Rock") {
+                console.log("Tie! Rock ties Rock");
             } else {
-                console.log("You Lose! Paper beats Rock")
+                console.log("You Lose! Paper beats Rock");
             }
         }
         if (playerSelection === "Paper") {
             if (computerSelection === "Rock") {
                 console.log("You Win! Paper beats Rock")
-            } if (computerSelection === "Paper") {
+            } else if (computerSelection === "Paper") {
                 console.log("Tie! Paper ties Paper")
             } else {
                 console.log("You Lose! Scissors beats Paper")
@@ -36,15 +36,15 @@ function game() {
         if (playerSelection === "Scissors") {
             if (computerSelection === "Paper") {
                 console.log("You Win! Scissors beats Paper")
-            } if (computerSelection === "Scissors") {
+            } else if (computerSelection === "Scissors") {
                 console.log("Tie! Scissors ties Scissors")
             } else {
-                console.log("You Lose! Scissors beats Paper")
+                console.log("You Lose! Rock beats Scissors")
             }
         }
 
     }
     rpsRound(playerSelection, computerSelection);
-
+    
 }
 game();

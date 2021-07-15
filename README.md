@@ -9,3 +9,8 @@ Plan:
 6. Make a game loop so the user has best of 5 chance.
  
 
+Plan part 2: 
+1. Create GUI interface for the RPS project
+2. Add buttons for user to interact with what choice they want.
+3. add buttons for the computer to show what it has chosen.
+4. display gamescore
